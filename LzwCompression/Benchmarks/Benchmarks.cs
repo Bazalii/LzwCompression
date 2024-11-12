@@ -94,7 +94,7 @@ public class Benchmarks
         // Тестируем рандомную строку
         RunLengthBenchmark(RandomString3);
         
-        // Тестируем текст
+        // Тестируем хороший для LZW текст
         RunLengthBenchmark(BenchmarkConstants.Text1);
     }
 
